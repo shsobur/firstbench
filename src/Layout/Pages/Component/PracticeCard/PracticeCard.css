@@ -1,7 +1,7 @@
 .pratice_card_main_container {
   margin-top: 40px;
   border-radius: 8px;
-  padding: 20PX;
+  padding: 20px;
   border: 2px solid #ced1d4;
   background-color: #ffffff;
 }
@@ -34,8 +34,14 @@
   background-color: #5a5fbc;
 }
 
+.pratice_card_info_container h3 {
+  color: #939aa5;
+  font-weight: 500;
+}
+
 .pratice_card_info_container h3 span {
   font-size: 1.8rem;
+  color: #151515;
   font-weight: 600;
 }
 
@@ -57,4 +63,101 @@
   padding-top: 5px;
   font-weight: 600;
   font-size: 14px;
+}
+
+/* Card inner second section__ */
+
+.pratice_card_second_inner_section {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #f7f6fc;
+}
+
+/* Card inner second section content__ */
+
+.pratice_card_top_score_container {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ced1d4;
+}
+
+.pratice_card_top_score_image_container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  border: 4px solid #dbd8f7;
+}
+
+.score_info_container h2 {
+  color: #5a5fbc;
+  font-weight: 600;
+}
+
+.score_info_container h3 {
+  color: #939aa5;
+  font-weight: 500;
+}
+
+.score_info_container h3 span {
+  font-weight: 600;
+  color: #151515;
+  font-size: 1.8rem;
+}
+
+.score_author_name_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.score_author_name_container h2 span {
+  color: #939aa5;
+  font-weight: 600;
+}
+
+.score_author_name_container h2 {
+  color: #151515;
+  font-weight: 600;
+}
+
+.score_author_name_container h3 {
+  padding: 2px 10px;
+  border-radius: 16px;
+  color: #ffffff;
+  background-color: #059794;
+}
+
+/* Suggestion content__ */
+
+.pratice_card_suggestion_container {
+  margin-top: 10px;
+}
+
+.pratice_card_suggestion_container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.pratice_card_suggestion_container p {
+  padding: 5px 0;
+  color: #939aa5;
+}
+
+.pratice_card_suggestion_container button {
+  width: 100%;
+  color: #ffffff;
+  padding: 5px 0;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  margin-top: 30px;
+  background-color: #5a5fbc;
+}
+
+.pratice_card_suggestion_container button:hover {
+  background-color: #5155aa;
 }
