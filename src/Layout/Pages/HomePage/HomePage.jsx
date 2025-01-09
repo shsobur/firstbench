@@ -1,5 +1,6 @@
 import "./HomePage.css";
 import image from "../../../assets/result.png";
+import PracticeCard from "../Component/PracticeCard/PracticeCard";
 
 const HomePage = () => {
   return (
@@ -8,16 +9,17 @@ const HomePage = () => {
         <aside className="right_side_result_main_container">
 
           <div className="result_section_image_container">
-
             <div>
               <img src={image} alt="image" />
             </div>
-
             <div>
               <h2>Your Result!</h2>
               <p>All you insights & details in one place</p>
             </div>
-            
+          </div>
+
+          <div>
+            <PracticeCard></PracticeCard>
           </div>
 
         </aside>
