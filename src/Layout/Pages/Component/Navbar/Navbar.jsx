@@ -1,12 +1,14 @@
 import { useState } from "react";
-import { AiOutlineHome } from "react-icons/ai";
-import { BsStars } from "react-icons/bs";
-import { GiStoneTower } from "react-icons/gi";
-import { ImPower } from "react-icons/im";
-import { IoMdMenu, IoMdNotificationsOutline } from "react-icons/io";
-import { RxCross2 } from "react-icons/rx";
+// React icons__
 import { TbNotes } from "react-icons/tb";
+import { BsStars } from "react-icons/bs";
+import { ImPower } from "react-icons/im";
+import { RxCross2 } from "react-icons/rx";
+import { GiStoneTower } from "react-icons/gi";
 import { VscGraphLine } from "react-icons/vsc";
+import { AiOutlineHome } from "react-icons/ai";
+import { IoChevronDownSharp } from "react-icons/io5";
+import { IoMdMenu, IoMdNotificationsOutline } from "react-icons/io";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -102,12 +104,14 @@ const Navbar = () => {
                   className="flex items-center focus:outline-none"
                   aria-label="toggle profile dropdown"
                 >
-                  <div className="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                    <img
-                      src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-                      className="object-cover w-full h-full"
-                      alt="avatar"
-                    />
+                  <div className="">
+                    <button className="flex items-center gap-2 px-4 py-2 text-white bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none">
+                      <div className="flex items-center justify-center w-6 h-6 text-pink-600 bg-pink-200 rounded-full">
+                        P
+                      </div>
+                      <span>Profile</span>
+                      <IoChevronDownSharp />
+                    </button>
                   </div>
 
                   <h3 className="mx-2 text-gray-700 lg:hidden">Khatab wedaa</h3>
