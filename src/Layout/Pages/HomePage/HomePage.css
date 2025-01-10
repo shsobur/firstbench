@@ -1,6 +1,6 @@
 .home_page_main_top_container {
   max-width: 1536px;
-  height: 100vh;
+  height: auto;
   margin: auto;
   padding: 30px;
   gap: 20px;
@@ -37,7 +37,7 @@
 }
 
 .result_section_image_container img {
-  width: 100%;
+  width: 80%;
 }
 
 .result_section_image_container h2 {

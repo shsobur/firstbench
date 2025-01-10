@@ -1,0 +1,60 @@
+.visite_card_main_component {
+  margin-top: 20px;
+  padding: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 2px solid #ced1d4;
+}
+
+/* Card inner content__ */
+
+.visite_card_inner_content h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.visite_card_inner_content p {
+  color: #939aa5;
+  padding: 10px 0 20px 0;
+}
+
+.visite_card_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.visite_card_inner_content button {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 70%;
+  padding: 5px 0;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background-color: #5155aa;
+}
+
+.visite_card_inner_content button:hover {
+  background-color: #474b97;
+}
+
+.visite_card_inner_content li {
+  gap: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  list-style: none;
+  margin-top: 30px;
+  color: #939aa5;
+}
+
+.visite_card_inner_content li span {
+  padding-top: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

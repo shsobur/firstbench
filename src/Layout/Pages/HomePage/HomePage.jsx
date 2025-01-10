@@ -1,6 +1,7 @@
 import "./HomePage.css";
 import image from "../../../assets/result.png";
 import PracticeCard from "../Component/PracticeCard/PracticeCard";
+import VisiteCard from "../Component/VisiteCard/VisiteCard";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,10 @@ const HomePage = () => {
 
           <div>
             <PracticeCard></PracticeCard>
+          </div>
+
+          <div>
+            <VisiteCard></VisiteCard>
           </div>
 
         </aside>
