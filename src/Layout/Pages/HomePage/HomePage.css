@@ -11,7 +11,7 @@
 
 /* Home main two section__*/
 
-.right_side_result_main_container {
+.left_side_result_main_container {
   height: 100%;
   width: 30%;
   padding: 20px;
@@ -20,11 +20,13 @@
   border: 2px solid #ced1d4;
 }
 
-.left_side_test_info_main_container {
+.right_side_test_info_main_container {
   height: 100%;
   width: 70%;
-  border: 2px solid turquoise;
+  /* border: 2px solid turquoise; */
 }
+
+/* Left site styleing__ */
 
 /* Result image section__ */
 
@@ -50,4 +52,19 @@
 .result_section_image_container p {
   color: #7b808c;
   font-size: 18px;
+}
+
+/* Right site styleing__ */
+
+.compare_main_container {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.right_side_improvement_card_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
 }

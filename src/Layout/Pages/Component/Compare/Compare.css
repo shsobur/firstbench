@@ -1,0 +1,20 @@
+.comprar_inner_container {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #e5e7e9;
+}
+
+.comprar_inner_container span {
+  font-size: 20px;
+}
+
+.comprar_inner_container h3 {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  color: #7b808c;
+}
